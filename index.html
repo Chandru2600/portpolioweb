@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">C M Loni</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">C M Loni</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skill" onclick="toggleMenu()">Skill</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="ph.jpeg" alt="" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Chandrashekhar M Loni</h1>
+        <p class="section__text__p2">Student@ SDMCET Dharwad</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('')"
+          >
+            Download CV
+          </button>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="about">
+
+      <h1 class="title">About Me</h1>
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="work.png"
+                alt="experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>
+                Fresher <br />
+                Web Developer
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="edu.jpeg"
+                alt="education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>
+                B.E AIML. <br />
+                6th-12th(CBSE) From JNV VIJAYAPUR.<br />
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hi, I'm Chandrashekhar, a 2nd-year student at SDMCET, Dharwad, with a strong passion for full-stack web development. Having completed my schooling at Jawahar Navodaya Vidyalaya Vijayapur, I am on a mission to create seamless, user-centric digital experiences.
+From designing captivating front-end interfaces to building efficient back-end systems, I am dedicated to transforming innovative ideas into impactful solutions. Staying curious and up-to-date with the latest web development trends is a key part of my journey.
+Beyond coding, I love immersing myself in creative projects and exploring new ways to tell stories and bring ideas to life. For me, it’s all about growth, innovation, and contributing to a better future through technology.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="skill">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="skill-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="skill-sub-title">Technical Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="html.png"
+                  class="icon"
+                  alt="Skill icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+
+                </div>
+              </article>
+              <article>
+                <img
+                  src="css.jpeg"
+                  class="icon"
+                  alt="Skill icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+
+                </div>
+              </article>
+              
+              <article>
+                <img
+                  src="jawa.png"
+                  class="icon"
+                  alt="Skill icon"
+                />
+                <div>
+                  <h3>JAVASCRIPT</h3>
+
+                </div>
+              </article>
+              <article>
+                <img
+                  src="c+.png"
+                  class="icon"
+                  alt="Skill icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="python.png"
+                  class="icon"
+                  alt="Skill icon"
+                />
+                <div>
+                  <h3>Pyhton</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="skill-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="recipe.jpeg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skill-sub-title project-title">Recipe Book</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://chandru2600.github.io/recipebook/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="remin.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skill-sub-title project-title">Persnalised Reminder</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://chandru2600.github.io/reminder/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="todo.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skill-sub-title project-title">To-Do-List</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://chandru2600.github.io/TODOLIST/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="imal.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:chandrashekharml2600@gmail.com">Email</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="link.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/chandrashekhar-m-loni-8652b6291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="inst.jpeg"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="https://www.instagram.com/mr_chandrashekhar.loni?igsh=MW0wc3g3dWEzOWp5OA==">Instagram</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 CMLONI. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
