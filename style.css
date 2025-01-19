@@ -149,7 +149,7 @@ a:hover{
 
 section{
     padding-top: 4vh;
-    height: 96vh;
+    height: 50vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -379,6 +379,7 @@ article .icon{
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    
 }
 
 .contact-info-upper-container{
@@ -397,6 +398,7 @@ article .icon{
     justify-content: center;
     gap: 0.5rem;
     margin: 1rem;
+    border-radius: 2rem;
 }
 
 .contact-info-container p{
