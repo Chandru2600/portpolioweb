@@ -526,6 +526,7 @@ footer p{
 
   }
 .card-expand-hover {
+  border: 2px solid transparent;    /* Fixes border-jump */
   transition: transform 0.3s cubic-bezier(0.4,0,0.2,1), box-shadow 0.3s, background 0.3s, border-color 0.3s;
   cursor: pointer;
   z-index: 1;
@@ -538,5 +539,7 @@ footer p{
   border: 2px solid #fcb00a;
   z-index: 10;
 }
+
+
 
 
