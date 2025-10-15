@@ -522,7 +522,10 @@ footer p{
     .text-container{
       text-align: justify;
     }
-    .card-expand-hover {
+    
+
+  }
+.card-expand-hover {
   transition: transform 0.3s cubic-bezier(0.4,0,0.2,1), box-shadow 0.3s, background 0.3s, border-color 0.3s;
   cursor: pointer;
   z-index: 1;
@@ -536,5 +539,4 @@ footer p{
   z-index: 10;
 }
 
-  }
 
