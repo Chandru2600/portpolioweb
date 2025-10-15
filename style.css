@@ -526,19 +526,26 @@ footer p{
 
   }
 .card-expand-hover {
-  border: 2px solid transparent;    /* Fixes border-jump */
-  transition: transform 0.3s cubic-bezier(0.4,0,0.2,1), box-shadow 0.3s, background 0.3s, border-color 0.3s;
+  border: 2px solid transparent; /* This ensures no "jump" when border appears */
+  transition: 
+    transform 0.3s cubic-bezier(0.4,0,0.2,1),
+    box-shadow 0.3s,
+    background 0.3s,
+    border-color 0.3s;
   cursor: pointer;
   z-index: 1;
+  background: #fff; /* Ensures background isn't overwritten */
 }
 
 .card-expand-hover:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 24px rgba(44,44,44,0.13), 0 1px 9px rgba(44,44,44,0.07);
   background: #f7f8fa;
-  border: 2px solid #fcb00a;
+  border-color: #fcb00a;
   z-index: 10;
 }
+
+
 
 
 
