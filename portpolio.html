@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chandrashekhar M Loni | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+
+<body>
+  <!-- Floating particles background -->
+  <canvas id="particles-canvas"></canvas>
+
+  <nav id="desktop-nav">
+    <div class="logo">C M Loni<span class="logo-dot">.</span></div>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#timeline">Journey</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="game-nav-btn" class="theme-btn" aria-label="Play Game">
+        <i class="fa-solid fa-gamepad"></i>
+      </button>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">C M Loni<span class="logo-dot">.</span></div>
+    <div class="hamburger-right">
+      <button id="game-nav-btn-mobile" class="theme-btn" aria-label="Play Game">
+        <i class="fa-solid fa-gamepad"></i>
+      </button>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#timeline">Journey</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="ph.jpg" alt="" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Chandrashekhar M Loni</h1>
+      <p class="section__text__p2">Final Year AIML Student @ SDMCET Dharwad</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('Chandrashekhar_Loni.pdf', '_blank')">
+          Download CV
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="about" data-animation="slide-in">
+    <h1 class="title">About Me</h1>
+    <div class="text-container">
+      <p>
+        Hi, I'm Chandrashekhar, a final year engineering student at SDMCET, Dharwad, driven by a genuine passion for
+        software
+        development. My journey began with a strong foundation from Jawahar Navodaya Vidyalaya Vijayapur, and has grown
+        into a
+        commitment to building robust, user-friendly digital solutions.<br>
+
+        I specialize in full-stack web development—designing intuitive front-end interfaces and crafting efficient,
+        scalable
+        back-end systems. Staying curious about the latest tech trends, I love translating creative ideas into
+        real-world
+        applications that make a difference.<br>
+
+        For me, software development is about more than just writing code—it's about continuous learning, innovation,
+        and
+        creating value that lasts. I’m always exploring new ways to solve problems, tell compelling digital stories, and
+        contribute positively to the tech community.<br>
+
+        Outside of programming, I’m passionate about sports—especially football and hockey. Representing my college in
+        hockey
+        and being part of the Belagavi zone championship-winning team has taught me the value of teamwork, discipline,
+        and
+        resilience.<br>
+
+        Thank you for your time, and have a wonderful day!<br>
+      </p>
+    </div><br>
+    <div class="about-details-container">
+      <div class="about-containers">
+        <div class="details-container card-expand">
+          <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+          <h3>Experience</h3>
+          <p>
+            • App Development Intern, BlackSpire Pvt. Ltd., 2026 <br />
+            Developing and enhancing mobile/web applications, implementing features, debugging issues, and improving
+            performance as part of an internal product team. <br /><br />
+            • Virtual Internship at Edunet Foundation (Front-End Web Development), 2025 <br />
+            Completed a 6-week internship under AICTE & IBM SkillsBuild program, developed front-end projects and
+            learned modern web technologies.
+          </p>
+        </div>
+        <div class="details-container card-expand">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h3>Education</h3>
+          <p>
+            • B.E in AI & ML, SDMCET Dharwad (2023–2027), CGPA: 9.51 <br />
+            • 12th Grade – Jawahar Navodaya Vidyalaya, Vijayapur (2023, CBSE) – 82% <br />
+            • 10th Grade – Jawahar Navodaya Vidyalaya, Vijayapur (2021, CBSE) – 81.33%
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="timeline" data-animation="slide-in">
+    <p class="section__text__p1">My Progression</p>
+    <h1 class="title">Journey</h1>
+    <div class="timeline-container">
+      <div class="timeline-line"></div>
+
+      <!-- Timeline Item 1 -->
+      <div class="timeline-item left" data-animation="slide-in">
+        <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+        <div class="timeline-content glass-card">
+          <span class="timeline-date">2021</span>
+          <h3>10th Grade</h3>
+          <h4>Jawahar Navodaya Vidyalaya, Vijayapur</h4>
+          <p>Completed secondary education under CBSE board with 81.33%.</p>
+        </div>
+      </div>
+
+      <!-- Timeline Item 2 -->
+      <div class="timeline-item right" data-animation="slide-in">
+        <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+        <div class="timeline-content glass-card">
+          <span class="timeline-date">2023</span>
+          <h3>12th Grade</h3>
+          <h4>Jawahar Navodaya Vidyalaya, Vijayapur</h4>
+          <p>Completed higher secondary education in science stream (CBSE) with 82.00%.</p>
+        </div>
+      </div>
+
+      <!-- Timeline Item 3 -->
+      <div class="timeline-item left" data-animation="slide-in">
+        <div class="timeline-dot"><i class="fa-solid fa-user-graduate"></i></div>
+        <div class="timeline-content glass-card">
+          <span class="timeline-date">2023 - 2027</span>
+          <h3>B.E. in Artificial Intelligence & Machine Learning</h3>
+          <h4>SDMCET Dharwad</h4>
+          <p>Currently pursuing bachelor's degree with a focus on advanced computing, algorithms, AI applications, and
+            software engineering. Current CGPA: 9.51.</p>
+        </div>
+      </div>
+
+      <!-- Timeline Item 4 -->
+      <div class="timeline-item right" data-animation="slide-in">
+        <div class="timeline-dot"><i class="fa-solid fa-laptop-code"></i></div>
+        <div class="timeline-content glass-card">
+          <span class="timeline-date">2025</span>
+          <h3>Front-End Web Dev Intern</h3>
+          <h4>Edunet Foundation (AICTE & IBM SkillsBuild)</h4>
+          <p>Completed a 6-week virtual internship program. Designed interfaces, built responsive projects, and learned
+            modern frontend principles.</p>
+        </div>
+      </div>
+
+      <!-- Timeline Item 5 -->
+      <div class="timeline-item left" data-animation="slide-in">
+        <div class="timeline-dot"><i class="fa-solid fa-briefcase"></i></div>
+        <div class="timeline-content glass-card">
+          <span class="timeline-date">2026</span>
+          <h3>App Development Intern</h3>
+          <h4>BlackSpire Pvt. Ltd.</h4>
+          <p>Developed and enhanced web/mobile applications. Collaborated with design and backend teams to release
+            performant code, fix bugs, and refactor features.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skill" data-animation="fade-in">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Skills</h1>
+    <div class="skill-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="skill-sub-title">Technical Skills</h2>
+          <div class="article-container">
+            <article>
+              <i class="fa-brands fa-html5 fa-beat" style="color: red; font-size: 40px"></i>
+              <div>
+                <h3>HTML</h3>
+              </div>
+            </article>
+            <article>
+              <i class="fa-brands fa-css3-alt fa-beat" style="color: #74C0FC; font-size: 40px"></i>
+              <div>
+                <h3>CSS</h3>
+              </div>
+            </article>
+            <article>
+              <i class="fa-brands fa-js fa-beat " style="color: #FFD43B; font-size: 40px"></i>
+              <div>
+                <h3>JAVASCRIPT</h3>
+              </div>
+            </article>
+            <article>
+              <i class="fa-sharp fa-solid fa-c fa-beat " style="font-size: 40px"></i>
+              <div>
+                <h3>C / C++</h3>
+              </div>
+            </article>
+            <article>
+              <i class="fa-brands fa-python fa-beat" style="color: #FFD43B; font-size: 40px"></i>
+              <div>
+                <h3>Python</h3>
+              </div>
+            </article>
+            <article>
+              <i class="fa-brands fa-java fa-beat" style="font-size: 40px"></i>
+              <div>
+                <h3>Java</h3>
+              </div>
+            </article>
+            <article>
+              <i class="fa-solid fa-database fa-beat" style=" font-size: 40px"></i>
+              <div>
+                <h3>SQL</h3>
+              </div>
+            </article>
+            <article>
+              <i class="fa-brands fa-react fa-beat" style="color: #61DBFB; font-size: 40px"></i>
+              <div>
+                <h3>React</h3>
+              </div>
+            </article>
+            <article>
+              <i class="fa-brands fa-android fa-beat" style="color: #3DDC84; font-size: 40px"></i>
+              <div>
+                <h3>Android</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" data-animation="slide-in">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+
+    <!-- Filter Pills -->
+    <div class="project-filters">
+      <button class="filter-pill active" data-filter="all"><span>All</span></button>
+      <button class="filter-pill" data-filter="web"><span>Web Dev</span></button>
+      <button class="filter-pill" data-filter="ai"><span>AI / ML</span></button>
+      <button class="filter-pill" data-filter="mobile"><span>Mobile</span></button>
+      <button class="filter-pill" data-filter="cv"><span>Computer Vision</span></button>
+    </div>
+
+    <!-- Projects Grid -->
+    <div class="projects-grid">
+
+      <!-- Project 1: MediAssist+ -->
+      <div class="project-card" data-category="mobile ai">
+        <span class="project-number">01</span>
+        <div class="article-container">
+          <img src="medi_assist.png" alt="MediAssist+ Project" class="project-img" />
+        </div>
+        <div class="project-card-body">
+          <h2 class="project-title">MediAssist+</h2>
+          <div class="tech-badges">
+            <span class="tech-badge">React Native</span>
+            <span class="tech-badge">Node.js</span>
+            <span class="tech-badge">PostgreSQL</span>
+            <span class="tech-badge">Local AI</span>
+          </div>
+          <p class="project-teaser">An AI-powered mobile app for doctors that records consultations, converts speech to
+            text, and generates structured medical summaries.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn btn-details">View Details</button>
+          </div>
+        </div>
+        <div class="project-full-details" style="display:none;">
+          <h3>MediAssist+ - AI-Powered Consultation System</h3>
+          <p class="modal-desc">MediAssist+ is an advanced mobile application for healthcare professionals that records
+            consultations, converts speech to text, and generates structured medical summaries using local AI models.
+          </p>
+          <div class="modal-section">
+            <h4>System Architecture</h4>
+            <ul>
+              <li><strong>Mobile Client:</strong> Developed in React Native, managing audio buffers and doctor
+                navigation routes.</li>
+              <li><strong>Backend API:</strong> Node.js and Express gateway checking doctor tokens.</li>
+              <li><strong>Database:</strong> Secure PostgreSQL schemas storing history under HIPAA alignment.</li>
+              <li><strong>AI Engine:</strong> Python FastAPI microservice hosting Whisper for transcription and local
+                Llama 3 models for clinical note summaries.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Key Features</h4>
+            <ul>
+              <li>High-fidelity real-time consultation voice recording and conversion to text.</li>
+              <li>AI clinical note generator outputting SOAP summaries (Subjective, Objective, Assessment, Plan).</li>
+              <li>Secure doctor dashboard log with search, filters, and profile controls.</li>
+              <li>Automated patient files deletion and secure session logs.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Technical Challenges Resolved</h4>
+            <ul>
+              <li><strong>Problem:</strong> Deciphering complex medical terms and jargon.</li>
+              <li><strong>Solution:</strong> Fine-tuned model sampling parameters and integrated a post-transcription
+                custom dictionary matching phase.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Future Scope</h4>
+            <ul>
+              <li>Integration with Electronic Health Records (EHR) databases via FHIR APIs.</li>
+              <li>Multi-lingual transcription translation.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2: AI Fruit Freshness -->
+      <div class="project-card" data-category="ai cv">
+        <span class="project-number">02</span>
+        <div class="article-container">
+          <img src="fruit_freshness.png" alt="Fruit Freshness System" class="project-img" />
+        </div>
+        <div class="project-card-body">
+          <h2 class="project-title">AI Fruit Freshness Detection</h2>
+          <div class="tech-badges">
+            <span class="tech-badge">TensorFlow</span>
+            <span class="tech-badge">Keras</span>
+            <span class="tech-badge">Flask</span>
+            <span class="tech-badge">Python</span>
+          </div>
+          <p class="project-teaser">A deep learning application to classify fruit freshness and detect spoilage in
+            real-time using image data.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn btn-details">View Details</button>
+          </div>
+        </div>
+        <div class="project-full-details" style="display:none;">
+          <h3>AI-Based Fruit Freshness Detection System</h3>
+          <p class="modal-desc">An intelligent computer vision system classifying fruit freshness and detecting
+            early-stage spoilage using deep learning CNNs and serving predictions via a Flask API.</p>
+          <div class="modal-section">
+            <h4>System Architecture</h4>
+            <ul>
+              <li><strong>Web Client:</strong> Drag-and-drop file upload views built with HTML, CSS, and JS.</li>
+              <li><strong>Inference API:</strong> Flask web backend loading model weights.</li>
+              <li><strong>Deep Learning Core:</strong> TensorFlow/Keras Convolutional Neural Network trained on
+                optimized fruit classification datasets.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Key Features</h4>
+            <ul>
+              <li>Real-time image classification for multiple fruit types.</li>
+              <li>Visual metrics display indicating freshness confidence levels.</li>
+              <li>Spoilage timeline estimates based on current spoilage stages.</li>
+              <li>Batch processing inputs processing multiple items at once.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Technical Challenges Resolved</h4>
+            <ul>
+              <li><strong>Problem:</strong> Model precision drops due to lighting changes in different environments.
+              </li>
+              <li><strong>Solution:</strong> Augmenting the training dataset with random shadows, contrast shifts, and
+                brightness scaling.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Future Scope</h4>
+            <ul>
+              <li>Deploying the model as a lightweight TensorFlow Lite container inside mobile applications.</li>
+              <li>Integrating automated warnings for inventory control frameworks.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3: Automated OMR Evaluation -->
+      <div class="project-card" data-category="cv ai">
+        <span class="project-number">03</span>
+        <div class="article-container">
+          <img src="omr.png" alt="OMR Evaluation System" class="project-img" />
+        </div>
+        <div class="project-card-body">
+          <h2 class="project-title">Automated OMR Evaluation</h2>
+          <div class="tech-badges">
+            <span class="tech-badge">OpenCV</span>
+            <span class="tech-badge">Flask</span>
+            <span class="tech-badge">Computer Vision</span>
+            <span class="tech-badge">Python</span>
+          </div>
+          <p class="project-teaser">An automated computer vision grading application that processes and scores scanned
+            bubble sheets with extreme accuracy.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn btn-details">View Details</button>
+          </div>
+        </div>
+        <div class="project-full-details" style="display:none;">
+          <h3>Automated OMR Evaluation &amp; Scoring System</h3>
+          <p class="modal-desc">This system automates the evaluation of OMR sheets using advanced computer vision and
+            web APIs. Leveraging OpenCV for image transformation and Flask for backend services, users can upload
+            scanned sheets and instantly compute scores against a CSV answer key.</p>
+          <div class="modal-section">
+            <h4>System Architecture</h4>
+            <ul>
+              <li><strong>UI Dashboard:</strong> Interface for student roster management and CSV grading key uploads.
+              </li>
+              <li><strong>Backend API:</strong> Flask file receiver handling multi-part scanner files.</li>
+              <li><strong>Computer Vision Core:</strong> OpenCV transformation pipeline executing perspective correction
+                and bubble analysis.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Key Features</h4>
+            <ul>
+              <li>Automatic contour alignment and perspective transform for warped or rotated scans.</li>
+              <li>Intelligent bubble grid detection based on threshold density analysis.</li>
+              <li>Rapid scoring engines (processing sheets in milliseconds).</li>
+              <li>Excel/CSV roster exports for graded sheets.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Technical Challenges Resolved</h4>
+            <ul>
+              <li><strong>Problem:</strong> Tilt variations and camera distances led to misalignment.</li>
+              <li><strong>Solution:</strong> Implemented Hough Line Transforms to detect paper boundaries and warps,
+                ensuring accurate cell alignment.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Future Scope</h4>
+            <ul>
+              <li>Adding Optical Character Recognition (OCR) for hand-written student roll numbers.</li>
+              <li>Multi-page exam booklet packet scanning.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4: Crop Disease Detection -->
+      <div class="project-card" data-category="ai cv">
+        <span class="project-number">04</span>
+        <div class="article-container">
+          <img src="crop_disease.png" alt="Crop Disease Detection" class="project-img" />
+        </div>
+        <div class="project-card-body">
+          <h2 class="project-title">Crop Disease Detection</h2>
+          <div class="tech-badges">
+            <span class="tech-badge">TensorFlow</span>
+            <span class="tech-badge">Keras</span>
+            <span class="tech-badge">OpenCV</span>
+            <span class="tech-badge">Flask</span>
+          </div>
+          <p class="project-teaser">A deep learning classification system that detects plant leaf diseases from images
+            using CNNs and provides remedies.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn btn-details">View Details</button>
+          </div>
+        </div>
+        <div class="project-full-details" style="display:none;">
+          <h3>Crop Disease Detection Using Deep Learning</h3>
+          <p class="modal-desc">A high-fidelity machine learning system that uses a CNN to detect plant diseases
+            directly from leaf images. The model flags potential crop diseases and suggests effective remedies via a
+            real-time prediction API.</p>
+          <div class="modal-section">
+            <h4>System Architecture</h4>
+            <ul>
+              <li><strong>Client Interface:</strong> Lightweight dashboard showing scan reports.</li>
+              <li><strong>API Server:</strong> Flask endpoint forwarding image files to model loader.</li>
+              <li><strong>ML Classifier:</strong> MobileNetV2 architecture fine-tuned on PlantVillage dataset.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Key Features</h4>
+            <ul>
+              <li>Instant classification of crop diseases (leaf blights, rusts).</li>
+              <li>Organic and chemical remedies database logs.</li>
+              <li>Lightweight model footprint supporting rapid processing.</li>
+              <li>Detailed history logs of scanned plant diseases.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Technical Challenges Resolved</h4>
+            <ul>
+              <li><strong>Problem:</strong> Model parameters were too large for fast loading.</li>
+              <li><strong>Solution:</strong> Quantized model weights to float16 using TensorFlow Lite converter,
+                decreasing file footprint by 75%.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Future Scope</h4>
+            <ul>
+              <li>Offline local predictions on native Android application.</li>
+              <li>Geolocated disease outbreak warning alerts.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 5: Vaidra -->
+      <div class="project-card" data-category="mobile">
+        <span class="project-number">05</span>
+        <div class="article-container">
+          <img src="vaidra.png" alt="Vaidra Project" class="project-img" />
+        </div>
+        <div class="project-card-body">
+          <h2 class="project-title">Vaidra</h2>
+          <div class="tech-badges">
+            <span class="tech-badge">FastAPI</span>
+            <span class="tech-badge">Flutter</span>
+            <span class="tech-badge">Docker</span>
+            <span class="tech-badge">PostgreSQL</span>
+          </div>
+          <p class="project-teaser">A comprehensive engineering project featuring FastAPI backend services, a Flutter
+            mobile app, and containerized Docker setup.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn btn-details">View Details</button>
+          </div>
+        </div>
+        <div class="project-full-details" style="display:none;">
+          <h3>Vaidra - Multi-Component Architecture</h3>
+          <p class="modal-desc">Vaidra is a comprehensive engineering project featuring a multi-component architecture,
+            including a Python-based backend (FastAPI), a Flutter mobile application, and Docker-based deployment.</p>
+          <div class="modal-section">
+            <h4>System Architecture</h4>
+            <ul>
+              <li><strong>Client App:</strong> Cross-platform Flutter Mobile Application.</li>
+              <li><strong>Backend API:</strong> FastAPI REST services managing models.</li>
+              <li><strong>Database Layer:</strong> PostgreSQL storage with Alembic schema management.</li>
+              <li><strong>Deployment:</strong> Multi-stage containerized setup managed via Docker Compose.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Key Features</h4>
+            <ul>
+              <li>Secure JWT user authentication and route verification.</li>
+              <li>Optimized SQL queries using SQLAlchemy ORM.</li>
+              <li>Automated schema updates and migrations using Alembic.</li>
+              <li>Consistent development environments using containerization.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Technical Challenges Resolved</h4>
+            <ul>
+              <li><strong>Problem:</strong> Running Alembic migrations before database initialization threw errors.</li>
+              <li><strong>Solution:</strong> Created entrypoint scripts checking connection queries before launching
+                Alembic migrations.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Future Scope</h4>
+            <ul>
+              <li>Kubernetes configuration scripts for auto-scaling.</li>
+              <li>Real-time state update servers using WebSockets.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 6: ResumeRelevance -->
+      <div class="project-card" data-category="ai">
+        <span class="project-number">06</span>
+        <div class="article-container">
+          <img src="resume_relevance.png" alt="ResumeRelevance" class="project-img" />
+        </div>
+        <div class="project-card-body">
+          <h2 class="project-title">ResumeRelevance</h2>
+          <div class="tech-badges">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">Streamlit</span>
+            <span class="tech-badge">NLP</span>
+            <span class="tech-badge">LLM</span>
+          </div>
+          <p class="project-teaser">An AI-driven application designed to analyze and score resume relevance against
+            technical job descriptions.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn btn-details">View Details</button>
+            <button class="btn btn-color-2 project-btn btn-demo"
+              onclick="window.open('https://resumerelevancemvp-gcvqzct2mdalugadcxymul.streamlit.app/','_blank')">Live
+              Demo</button>
+          </div>
+        </div>
+        <div class="project-full-details" style="display:none;">
+          <h3>ResumeRelevance - AI Resume Scoring</h3>
+          <p class="modal-desc">An AI-driven application designed to analyze and score resume relevance against
+            technical job descriptions.</p>
+          <div class="modal-section">
+            <h4>System Architecture</h4>
+            <ul>
+              <li><strong>Client Views:</strong> Streamlit interactive uploads dashboard.</li>
+              <li><strong>Processing Core:</strong> Python PyPDF2 extraction parser.</li>
+              <li><strong>AI Scoring Model:</strong> NLP SentenceTransformers embeddings using Cosine Similarity
+                calculations.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Key Features</h4>
+            <ul>
+              <li>Direct parsing pipelines for PDF/DOCX files.</li>
+              <li>Real-time relevancy score calculation.</li>
+              <li>Dynamic listing of missing keywords and skills.</li>
+              <li>Formatting tips dashboard for candidates.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Technical Challenges Resolved</h4>
+            <ul>
+              <li><strong>Problem:</strong> Parsing text from multi-column resume PDFs resulted in scrambled layouts.
+              </li>
+              <li><strong>Solution:</strong> Implemented linear bounding-box section parsers to extract columns in
+                correct sequential order.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Future Scope</h4>
+            <ul>
+              <li>Integrating LLM API calls for automated rewrite advice.</li>
+              <li>Auto-fetching job descriptions via LinkedIn scraping.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 7: Task Manager -->
+      <div class="project-card" data-category="web">
+        <span class="project-number">07</span>
+        <div class="article-container">
+          <img src="task_manager.png" alt="Task Manager" class="project-img" />
+        </div>
+        <div class="project-card-body">
+          <h2 class="project-title">Task Manager with Progress Tracker</h2>
+          <div class="tech-badges">
+            <span class="tech-badge">HTML5</span>
+            <span class="tech-badge">CSS3</span>
+            <span class="tech-badge">JavaScript</span>
+            <span class="tech-badge">LocalStorage</span>
+          </div>
+          <p class="project-teaser">An intuitive web productivity application featuring interactive progress trackers,
+            category management, and local persistence.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn btn-details">View Details</button>
+            <button class="btn btn-color-2 project-btn btn-demo"
+              onclick="window.open('https://chandru2600.github.io/Task-Manager-with-Progress-Tracker/','_blank')">Live
+              Demo</button>
+          </div>
+        </div>
+        <div class="project-full-details" style="display:none;">
+          <h3>Task Manager &amp; Productivity Suite</h3>
+          <p class="modal-desc">An intuitive web productivity application featuring interactive progress trackers,
+            category management, and local persistence.</p>
+          <div class="modal-section">
+            <h4>System Architecture</h4>
+            <ul>
+              <li><strong>Interface:</strong> Styled HTML5 and CSS3 Layout.</li>
+              <li><strong>Controller:</strong> Vanilla Javascript DOM event mapping logic.</li>
+              <li><strong>Data Layer:</strong> Browser LocalStorage persistence hooks.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Key Features</h4>
+            <ul>
+              <li>Interactive checklists with visual completion counters.</li>
+              <li>Stepless progress rings updating on state updates.</li>
+              <li>Separate categories for Work, Study, and Personal items.</li>
+              <li>Persistent data preventing loss on browser resets.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Technical Challenges Resolved</h4>
+            <ul>
+              <li><strong>Problem:</strong> Real-time progress indicators failed to update when items were deleted.</li>
+              <li><strong>Solution:</strong> Unified state managers triggering counter updates on all list adjustments.
+              </li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Future Scope</h4>
+            <ul>
+              <li>Calendar views and time tracking cards.</li>
+              <li>Cloud synchronization integrations.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 8: Recipe Book -->
+      <div class="project-card" data-category="web">
+        <span class="project-number">08</span>
+        <div class="article-container">
+          <img src="recipe_book.png" alt="Recipe Book" class="project-img" />
+        </div>
+        <div class="project-card-body">
+          <h2 class="project-title">Recipe Book</h2>
+          <div class="tech-badges">
+            <span class="tech-badge">HTML5</span>
+            <span class="tech-badge">CSS3</span>
+            <span class="tech-badge">JavaScript</span>
+          </div>
+          <p class="project-teaser">A gorgeous web application showcasing recipes with high-fidelity visual design,
+            interactive categories, and searchable catalog.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn btn-details">View Details</button>
+            <button class="btn btn-color-2 project-btn btn-demo"
+              onclick="window.open('https://chandru2600.github.io/recipebook/','_blank')">Live Demo</button>
+          </div>
+        </div>
+        <div class="project-full-details" style="display:none;">
+          <h3>Recipe Book &amp; Search Portal</h3>
+          <p class="modal-desc">A gorgeous web application showcasing recipes with high-fidelity visual design,
+            interactive categories, and searchable catalog.</p>
+          <div class="modal-section">
+            <h4>System Architecture</h4>
+            <ul>
+              <li><strong>Frontend:</strong> Responsive layout built with CSS grids.</li>
+              <li><strong>Controller:</strong> Vanilla JS filtering search layer.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Key Features</h4>
+            <ul>
+              <li>Instant search filtering indexing.</li>
+              <li>Popup recipe views displaying details and prep times.</li>
+              <li>Interactive category tag switches.</li>
+              <li>Clean responsiveness on mobile screen resolutions.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Technical Challenges Resolved</h4>
+            <ul>
+              <li><strong>Problem:</strong> Typing queries quickly caused sluggish response rendering.</li>
+              <li><strong>Solution:</strong> Debounced query listener inputs to optimize browser reflow times.</li>
+            </ul>
+          </div>
+          <div class="modal-section">
+            <h4>Future Scope</h4>
+            <ul>
+              <li>User ratings system.</li>
+              <li>Shopping lists ingredient compilation.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /projects-grid -->
+  </section>
+
+  <section id="contact" data-animation="fade-in">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-grid">
+      <!-- Left Side: Contact Information Cards -->
+      <div class="contact-info-panel">
+        <div class="contact-card-link card-expand">
+          <div class="contact-card-icon-wrapper" style="background: rgba(255, 0, 0, 0.1);">
+            <i class="fa-solid fa-envelope" style="color: #ff0000;"></i>
+          </div>
+          <div class="contact-card-details">
+            <h3>Email</h3>
+            <p>chandrashekharml2600@gmail.com</p>
+            <a href="mailto:chandrashekharml2600@gmail.com" class="contact-action-btn">Send Email <i
+                class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-card-link card-expand">
+          <div class="contact-card-icon-wrapper" style="background: rgba(10, 102, 194, 0.1);">
+            <i class="fa-brands fa-linkedin" style="color: #0a66c2;"></i>
+          </div>
+          <div class="contact-card-details">
+            <h3>LinkedIn</h3>
+            <p>chandrashekhar-m-loni-8652b6291</p>
+            <a href="http://www.linkedin.com/in/chandrashekhar-m-loni-8652b6291" target="_blank"
+              class="contact-action-btn">Connect <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-card-link card-expand">
+          <div class="contact-card-icon-wrapper" style="background: rgba(255, 71, 71, 0.1);">
+            <i class="fa-brands fa-square-instagram" style="color: #ff4747;"></i>
+          </div>
+          <div class="contact-card-details">
+            <h3>Instagram</h3>
+            <p>@mr_chandrashekhar.loni</p>
+            <a href="https://www.instagram.com/mr_chandrashekhar.loni?igsh=MW0wc3g3dWEzOWp5OA==" target="_blank"
+              class="contact-action-btn">Follow <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Side: Contact Form -->
+      <div class="contact-form-panel glass-card">
+        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          <!-- Web3Forms access key -->
+          <input type="hidden" name="access_key" value="6874592d-7774-44e4-9de8-88e60a1737d5">
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+          <div class="form-group">
+            <label for="form-name">Name</label>
+            <div class="input-wrapper">
+              <i class="fa-regular fa-user input-icon"></i>
+              <input type="text" id="form-name" name="name" placeholder="John Doe" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="form-email">Email Address</label>
+            <div class="input-wrapper">
+              <i class="fa-regular fa-envelope input-icon"></i>
+              <input type="email" id="form-email" name="email" placeholder="john@example.com" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="form-subject">Subject</label>
+            <div class="input-wrapper">
+              <i class="fa-regular fa-lightbulb input-icon"></i>
+              <input type="text" id="form-subject" name="subject" placeholder="Project Discussion" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="form-message">Message</label>
+            <div class="input-wrapper">
+              <i class="fa-regular fa-comment input-icon message-icon"></i>
+              <textarea id="form-message" name="message" rows="4" placeholder="Hi, I'd love to collaborate on..."
+                required></textarea>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-color-2 submit-btn">
+            <span>Send Message</span>
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+
+          <div id="form-status" class="form-status-message"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#timeline">Journey</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p> &#169; 2025 CMLONI. All Rights Reserved. <button id="game-trigger-btn" class="game-trigger-btn"
+        aria-label="Play Game"><i class="fa-solid fa-gamepad"></i></button></p>
+  </footer>
+
+  <!-- Project Details Modal -->
+  <div id="project-modal" class="modal-overlay" aria-hidden="true">
+    <div class="modal-content glass-card">
+      <button class="modal-close" id="modal-close-btn" aria-label="Close details">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-body" id="modal-body-content">
+        <!-- Content will be dynamically inserted here by JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Game Modal Overlay -->
+  <div id="game-modal" class="modal-overlay" aria-hidden="true">
+    <div class="modal-content game-modal-content glass-card">
+      <button class="modal-close" id="game-modal-close-btn" aria-label="Close game">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="game-modal-body">
+        <div class="game-header">
+          <button id="game-back-btn" class="game-back-btn" aria-label="Back to Menu" style="display: none;">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <h2><i class="fa-solid fa-gamepad gold-color"></i> <span id="game-modal-title">Code Arcade</span></h2>
+          <div id="game-header-scores" class="game-scores" style="display: none;">
+            <div>Score: <span id="game-header-score">0</span></div>
+            <div>High Score: <span id="game-header-high-score">0</span></div>
+          </div>
+        </div>
+
+        <!-- ==================== GAME SELECTION VIEW ==================== -->
+        <div id="game-selection-view">
+          <p class="game-intro">Select an Easter Egg mini-game to play!</p>
+          <div class="game-selection-grid">
+            <div class="game-select-card" id="btn-select-snake">
+              <div class="game-select-icon">🐍</div>
+              <h3>Code Snake</h3>
+              <p>Grow your code string by consuming coffee. Avoid syntax crash collisions.</p>
+              <button class="btn btn-color-2 select-play-btn">Play Snake</button>
+            </div>
+            <div class="game-select-card" id="btn-select-bughunter">
+              <div class="game-select-icon">🐛</div>
+              <h3>Bug Hunter</h3>
+              <p>Locate and patch bugs in your files. Do not miss, and watch the timer!</p>
+              <button class="btn btn-color-2 select-play-btn">Play Hunter</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==================== CODE SNAKE VIEW ==================== -->
+        <div id="snake-game-view" style="display: none;">
+          <p class="game-intro">Eat coffee cups <i class="fa-solid fa-mug-hot gold-color"></i> to expand your code
+            string. Avoid syntax error collisions!</p>
+
+          <div class="canvas-container">
+            <canvas id="game-canvas" width="300" height="300"></canvas>
+            <div id="game-start-overlay" class="game-overlay-screen">
+              <button id="game-start-btn" class="btn btn-color-2 start-btn">Start Snake</button>
+            </div>
+            <div id="game-over-overlay" class="game-overlay-screen" style="display: none;">
+              <h3 class="error-text">SYNTAX ERROR</h3>
+              <p>Code compilation failed.</p>
+              <button id="game-restart-btn" class="btn btn-color-2 start-btn">Debug &amp; Retry</button>
+            </div>
+          </div>
+
+          <!-- Retro Arrow Keys for Mobile Play -->
+          <div class="game-controls-mobile">
+            <button class="mobile-ctrl-btn ctrl-up" data-dir="up"><i class="fa-solid fa-caret-up"></i></button>
+            <div class="mobile-ctrl-row">
+              <button class="mobile-ctrl-btn ctrl-left" data-dir="left"><i class="fa-solid fa-caret-left"></i></button>
+              <button class="mobile-ctrl-btn ctrl-down" data-dir="down"><i class="fa-solid fa-caret-down"></i></button>
+              <button class="mobile-ctrl-btn ctrl-right" data-dir="right"><i
+                  class="fa-solid fa-caret-right"></i></button>
+            </div>
+          </div>
+
+          <div class="game-keyboard-tip">
+            <p><i class="fa-solid fa-keyboard"></i> Use arrow keys to navigate. Tip: Type Konami code to trigger
+              anywhere!</p>
+          </div>
+        </div>
+
+        <!-- ==================== BUG HUNTER VIEW ==================== -->
+        <div id="bughunter-game-view" style="display: none;">
+          <p class="game-intro">Bugs are corrupting your code repository! Click them to squash them before the timer
+            runs out. Missed clicks cause compilation errors (loss of lives)!</p>
+
+          <div class="bughunter-hud">
+            <div class="hud-item">Time: <span id="bug-timer" class="gold-color">30</span>s</div>
+            <div class="hud-item">Lives: <span id="bug-lives" class="error-text">❤️❤️❤️</span></div>
+            <div class="hud-item">Score: <span id="bug-score" class="gold-color">0</span></div>
+          </div>
+
+          <div class="canvas-container bug-canvas-container">
+            <div id="bug-grid" class="bug-grid-layout">
+              <div class="bug-cell" data-index="0"><span class="bug-character">🐛</span></div>
+              <div class="bug-cell" data-index="1"><span class="bug-character">🐛</span></div>
+              <div class="bug-cell" data-index="2"><span class="bug-character">🐛</span></div>
+              <div class="bug-cell" data-index="3"><span class="bug-character">🐛</span></div>
+              <div class="bug-cell" data-index="4"><span class="bug-character">🐛</span></div>
+              <div class="bug-cell" data-index="5"><span class="bug-character">🐛</span></div>
+              <div class="bug-cell" data-index="6"><span class="bug-character">🐛</span></div>
+              <div class="bug-cell" data-index="7"><span class="bug-character">🐛</span></div>
+              <div class="bug-cell" data-index="8"><span class="bug-character">🐛</span></div>
+            </div>
+
+            <div id="bug-start-overlay" class="game-overlay-screen">
+              <button id="bug-start-btn" class="btn btn-color-2 start-btn">Start Hunting</button>
+            </div>
+            <div id="bug-over-overlay" class="game-overlay-screen" style="display: none;">
+              <h3 id="bug-end-title" class="error-text">SYSTEM FAILURE</h3>
+              <p id="bug-end-message">Bugs corrupted the repository.</p>
+              <button id="bug-restart-btn" class="btn btn-color-2 start-btn">Debug &amp; Retry</button>
+            </div>
+          </div>
+
+          <div class="game-keyboard-tip">
+            <p><i class="fa-solid fa-mouse"></i> Click or tap the bugs quickly as they appear. Fast reflexes required!
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
